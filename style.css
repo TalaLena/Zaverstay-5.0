@@ -1,0 +1,173 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-Regular.woff2) format('woff2');
+  src: url(../fonts/Montserrat-Regular.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-Medium.woff2) format('woff2');
+  src: url(../fonts/Montserrat-Medium.woff) format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+.page {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  font-style: normal;
+  color: #533738;
+  background-color: EFE6E4;
+}
+
+.page-header a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400; 
+  color: #533738;
+}
+
+.page-navigation-list {
+  list-style: none;
+}
+
+.main-heading {
+  display: none;
+}
+
+.top-part {
+  background-image: url(img/header-background.jpg);
+}
+
+.promo h2 {
+  font-size: 50px;
+  line-height: 62px;
+  font-weight: 400;
+}
+
+.button {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  text-decoration: none; 
+  color: #533738;
+  background-color: #CC8B86;
+}
+
+.section-heading {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.about-us {
+  background-image: url(img/about-us.jpg);
+  background-repeat: no-repeat;
+}
+
+.about-us-numbers {
+  background-color: #8D7370;
+  color: #FFFFFF;
+}
+
+.about-us-numbers dt {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 62px;
+  text-align: center;
+}
+
+.about-us-numbers dd {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.portfolio-item h3 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #FFFFFF;
+  background: rgba(100, 72, 69, 0.8);
+}
+
+.portfolio-item p {
+  color: #FFFFFF;
+  background: rgba(100, 72, 69, 0.8);
+}
+
+.our-works a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: #533738;
+}
+
+.our-team {
+  background-color: #E2C4BA;
+}
+
+.our-team .section-heading {
+  text-align: center;
+}
+
+.team-list {
+  list-style: none;
+}
+
+.working-process {
+  background-color: #E2C4BA;
+}
+
+.working-process .section-heading {
+  text-align: center;
+}
+
+.clients-reviews .section-heading {
+  text-align: center;
+}
+
+.clients-reviews cite {
+  text-transform: uppercase;
+  font-style: normal;
+  display: block;
+}
+
+.request {
+  background-color: #8D7370;
+  color: #FFFFFF;
+}
+
+.request .button {
+  border: 0;
+}
+
+.request input {
+  background-color: #8D7370;
+  border: 0;
+  border-top: 1px solid #FFFFFF;
+}
+
+.page-footer a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
+}
+
+.page-footer address {
+  font-style: normal;
+}
